@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ESTILO PARA EL NAVBAR*/
+.navBar {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(165, 157, 157);
+}
+
+.navBar nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ESTILO LOGO */
+.logo {
+    width: 200px;
+    padding: 20px;
+}
+
+/* ESTILO BOTONES ( PRODUCTOS, PROMOS, NOSOTROS ) */
+.sections {
+    display: flex;
+    list-style-type: none;
+}
+
+.sections a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+/* FOTO CARRITO FUTURO BOTON*/
+.carrito {
+    width: 40px;
+}
+
+/*BUSCADOR DE ITEMS CON BOTON DE LUPA */
+.buscador {
+    display: flex;
+    align-items: center;
+}
+
+.buscador img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+/* ESTILO AL CONTADOR */
+.contadorBox {
+    border: solid 1px black;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contadorBox button {
+    margin: 5px;
+    width: 40px;
+}
+
+/* ESTILO A LAS CARDS DE ARTICULOS*/
+.cardArticulos {
+    display: flex;
+}
+
+.cardArticulos li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    height: fit-content;
+}
+
+.cardArticulos img {
+    border: 1px solid black;
+    width: 70%;
+    height: 50%;
+}
+
+
+/* CHARACTER CARDS STYLE */
+.characterCard {
+    display: flex;
+}
+
+.characterCard li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+}
+
+.characterCard img {
+    border: 1px solid black;
+    width: 70%;
+    height: 50%;
+}
